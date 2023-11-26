@@ -118,7 +118,7 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://github.com/wasimmoulik008/File/blob/main/Aptoval.txt').text
+        a=requests.get('https://github.com/SB-BILLAL/Approve.txt/tree/main').text
         ua=open('bbnew.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
@@ -260,7 +260,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/wasimmoulik008/File/blob/main/Aptoval.txt').text
+    httpCaht = requests.get('https://github.com/SB-BILLAL/Approve.txt/tree/main').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
